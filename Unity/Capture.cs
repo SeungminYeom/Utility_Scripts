@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class Capture : MonoBehaviour
 {
-    public string savePath
+    public string savePath;
+    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F12))
